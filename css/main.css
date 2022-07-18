@@ -1,0 +1,89 @@
+html body{
+
+}
+.header{
+    height: 74px;
+    background-color: rgb(218, 196, 196);
+
+}
+.container{
+    width: 1114px;
+    margin: auto;
+    
+
+}
+.header-flex{
+    display: flex;
+    justify-content: space-between;
+    
+    
+    
+}
+.flex-item1{
+    padding: 20px 0 10px;
+    
+}
+.inline{
+    display: flex;
+    padding-left: 10px;
+    padding-top: 20px;
+    
+}
+.flex-item2{
+    padding-left: 10px;
+}
+.banner{
+    height:401px;
+    background-color: rgb(163, 158, 153);
+}
+.banner-flex{
+    align-items: center;
+    justify-content: center;
+    padding-top: 180px;
+
+}
+.tommorow{
+    padding-top: 20px;
+}
+.about{
+    padding-left: 10px;
+    text-decoration: none;
+    
+}
+.today{
+    font-size: 30px;
+    font-weight: 900;
+}
+.tommorow{
+    font-size: 30px;
+    font-weight: 900;
+
+}
+.we{
+    font-size: 20px;
+    padding-top: 20px;
+}
+.courses{
+    padding-left: 10px;
+    text-decoration: none;
+}
+.trainer{
+    padding-left: 10px;
+    text-decoration: none;
+}
+.event{
+    padding-left: 10px;
+    text-decoration: none;
+}
+.pric{
+    padding-left: 10px;
+    text-decoration: none;
+}
+.drop{
+    padding-left: 10px;
+    text-decoration: none;
+}
+.cont{
+    padding-left: 10px;
+    text-decoration: none;
+}
