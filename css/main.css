@@ -35,6 +35,8 @@ html body{
 .banner{
     height:401px;
     background-color: rgb(163, 158, 153);
+    box-shadow: 0 0 30px 5px;
+    border-radius: 5px;
 }
 .banner-flex{
     align-items: center;
@@ -86,4 +88,158 @@ html body{
 .cont{
     padding-left: 10px;
     text-decoration: none;
+}
+.features{
+    height: 531px;
+    background-color: rgba(202, 211, 211, 0.829);
+    box-shadow: 0 0 30px;
+}
+.fea-point{
+    width: 579px;
+    padding-top: 61px;
+    font-size: 30px;
+    /* background-color: blue; */
+
+}
+.fea-point h1{
+    
+}
+.features-box{
+    
+    display: flex;
+    justify-content: space-between;
+    padding-top: 61px;
+    
+}
+.image{
+    height: 430px;
+    width: 579px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 30px 5px;
+}
+.count{
+    height: 176px;
+    background-color: rgb(39, 36, 36);
+}
+.count-flex{
+    display: flex;
+
+}
+.left-flex{
+    padding-top: 50px;
+}
+.left-flex h1 {
+    font-size: 50px;
+    
+}
+.left-flex p {
+    font-size: 30px;
+}
+.right-flex h1 {
+    font-size: 50px;
+    padding-left: 207px;
+    padding-top: 50px ;
+
+}
+.right-flex p {
+    font-size:30px ;
+    padding-left: 207px;
+    
+}
+.rightright-flex h1 {
+    font-size: 50px;
+    padding-left: 232px;
+    padding-top: 50px;
+    
+
+}
+.rightright-flex p {
+    font-size: 30px;
+    padding-left: 232px;
+}
+.rightflex-end h1 {
+    font-size:50px ;
+    padding-left: 235px;
+    padding-top: 50px;
+}
+.rightflex-end p {
+    font-size: 30px;
+    padding-left: 235px;
+}
+.whyas{
+    height: 432px;
+    background-color: rgb(249, 244, 253);
+}
+.as-mentor{
+    width: 357px;
+    background-color: rgb(104, 158, 99);
+    height:432px ;
+    border-radius: 10px;
+    box-shadow: 5px 10px 20px;
+    
+    
+}
+.as-mentor h1{
+    font-size: 27px;
+    padding-top: 39px;
+    padding-left: 29px;
+
+}
+.as-mentor p{
+    font-size:20px ;
+    padding-top: 48px;
+    padding-bottom: 35px;
+    padding-left: 29px;
+}
+.as-mentor button{
+    margin-left: 29px;
+}
+.as{
+    display: flex;
+}
+.labours{
+    display: flex;
+    height: 432px;
+}
+.labor1{
+    height: 366px;
+    
+    
+    background-color: blanchedalmond;
+    margin-left: 25px;
+    width: 228px;
+    margin-top: 35px;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px;
+    
+
+    
+}
+.labor2{
+    height: 366px;
+    background-color: rgba(146, 142, 137, 0.39)3;
+    
+    margin-left: 25px;
+    width: 228px;
+    margin-top: 35px;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px;
+}
+.labor3{
+    
+    height: 366px;
+    background-color: bisque;
+    
+    margin-left: 25px;
+    width: 228px;
+    margin-top: 35px;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px;
+}
+.laborh1{
+    padding-top: 145px;
+    padding-left: 35px;
+}
+.laborp{
+    padding-left: 35px;
 }
