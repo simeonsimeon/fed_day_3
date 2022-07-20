@@ -4,17 +4,29 @@ html body{
 .header{
     height: 74px;
     background-color: rgb(218, 196, 196);
+    
+    width: 100%;
+    position: absolute;
+    
 
 }
 .container{
     width: 1114px;
     margin: auto;
     
+    
 
 }
 .header-flex{
     display: flex;
     justify-content: space-between;
+    position: relative;
+    
+    
+    
+    
+    
+    
     
     
     
@@ -27,7 +39,18 @@ html body{
     display: flex;
     padding-left: 10px;
     padding-top: 20px;
+    text-transform: uppercase;
     
+    
+
+    
+}
+.inline li :hover{
+    border: solid 1px;
+    background-color: rgb(248, 252, 252);
+    border-radius: 2px;
+    
+
 }
 .flex-item2{
     padding-left: 10px;
@@ -119,7 +142,7 @@ html body{
 }
 .count{
     height: 176px;
-    background-color: rgb(39, 36, 36);
+    background-color: rgba(112, 100, 100, 0.87);
 }
 .count-flex{
     display: flex;
@@ -243,3 +266,290 @@ html body{
 .laborp{
     padding-left: 35px;
 }
+.boxbox{
+    height: 391px;
+    background-color: rgb(250, 250, 249);
+    margin: 0%;
+    transition-delay: 2s;
+}
+.whole-box{
+    height: 279px;
+    background-color: rgba(221, 240, 240, 0.342);
+    
+    
+}
+.down-box{
+    padding-bottom: 61px;
+}
+.box-top{
+    display: flex;
+
+}
+.lor{
+    width: 259px;
+    height:74px ;
+    border: solid 1px;
+}
+.lor2{
+    width: 259px;
+    height:74px ;
+    border: solid 1px;
+    margin-left: 25px;
+}
+.lor3{
+    width: 259px;
+    height:74px ;
+    border: solid 1px;
+    margin-left: 25px;
+
+}
+.lor4{
+    width: 259px;
+    height:74px ;
+    border: solid 1px;
+    margin-left: 25px;
+
+}
+.box-down{
+display: flex;
+}
+.nemo{
+    width: 259px;
+    height:74px ;
+    border: solid 1px;
+    margin-top: 26px;
+    
+}
+.nemo2{
+    width: 259px;
+    height:74px ;
+    border: solid 1px;
+    margin-left: 25px;
+    margin-top: 26px;
+}
+.nemo3{
+    width: 259px;
+    height:74px ;
+    border: solid 1px;
+    margin-left: 25px;
+    margin-top: 26px;
+}
+.nemo4{
+    width: 259px;
+    height:74px ;
+    border: solid 1px;
+    margin-left: 25px;
+    margin-top: 26px;
+}
+.box-downdown{
+display: flex;
+}
+.pack{
+    width: 259px;
+    height:74px ;
+    border: solid 1px;
+    margin-top: 26px
+
+}
+.pack2{
+    width: 259px;
+    height:74px ;
+    border: solid 1px;
+    margin-top: 26px;
+    margin-left: 25px;
+    
+}
+.pack3{
+    width: 259px;
+    height:74px ;
+    border: solid 1px;
+    margin-top: 26px;
+    margin-left: 25px;
+}
+.pack4{
+    width: 259px;
+    height:74px ;
+    border: solid 1px;
+    margin-top: 26px;
+    margin-left: 25px;
+}
+.courses{
+    height: 600px;
+    background-color: rgb(150, 150, 165);
+
+}
+.headcourse{
+    height: 107px;
+}
+.fontp{
+    font-size: 30px;
+    font-weight: 700;
+}
+.couresh1{
+    font-size: 30px;
+
+}
+.popularcoures{
+    display: flex;
+    
+
+}
+.course1{
+    height: 493px;
+    background-color: rgb(184, 144, 144);
+    width: 358px;
+    
+}
+.course2{
+    height: 493px;
+    background-color: rgb(240, 192, 192);
+    width: 358px;
+    margin-left: 25px;
+    
+
+}
+.course3{
+    height: 493px;
+    background-color: rgb(231, 160, 160);
+    width: 358px;
+    margin-left: 25px;
+    
+
+}
+.computerimage{
+    width: 358px;
+    height: 237px;
+}
+.combutton{
+    margin-left: 30px;
+    margin-top: 30px;
+    
+    
+}
+.comph1{
+    font-size: 30px;
+    color: aliceblue;
+}
+.compp{
+    font-size: 20px;
+}
+.bill{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    /*justify-content: center;
+    align-items: center;*/
+    padding-left: 20px;
+
+}
+.trainers{
+    height: 780px;
+    background-color: rgba(236, 229, 243, 0.822);
+}
+.wholetrainer{
+    
+    height: 575px;
+    /*background-color: aqua;*/
+    display: flex;
+    
+}
+.train1{
+    width: 354px;
+    height: 575px;
+    background-color: rgba(160, 160, 184, 0.774);
+    border-radius: 4px;
+    box-shadow: 0 0 30px;
+}
+.train2{
+    width: 354px;
+    height: 575px;
+    background-color: rgba(159, 159, 199, 0.925);
+    margin-left: 26px;
+    border-radius: 4px;
+    box-shadow: 0 0 30px;
+}
+.train3{
+    width: 354px;
+    height: 575px;
+    background-color: rgba(161, 161, 199, 0.568);
+    margin-left: 26px;
+    border-radius: 4px;
+    box-shadow: 0 0 30px;
+}
+.toptrain{
+    height: 122px;
+}
+.google{
+    height: 354px;
+    width: 354px;
+
+}
+.master{
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: 800;
+    color: antiquewhite;
+}
+.welcome{
+    padding-left: 50px;
+    padding-top: 20px;
+    font-size: 20px;
+
+}
+.footer{
+    height: 338px;
+    background-color: blanchedalmond;
+}
+.footer-whole{
+display: flex;
+padding-top: 60px;
+
+}
+.foot1{
+    padding-top: 61px;
+    width: 283px;
+    outline: solid 1px;
+}
+.foot2{
+    padding-top: 61px;
+    padding-left: 117px;
+    width: 188px;
+    outline: solid 1px;
+    
+}
+.foot3{
+    padding-top: 61px;
+    padding-left: 65px;
+    width: 283px;
+    outline: solid 1px;
+
+}
+.foot4{
+padding-top: 61px;
+}
+.foothero{
+    
+}
+.legal{
+    height: 92px;
+    background-color: rgb(63, 58, 58);
+}
+.legal-rightleft{
+    display: flex;
+    justify-content: space-between;
+
+}
+.legal-left{
+    padding-top: 28px;
+}
+.legalwrite{
+    color: azure;
+}
+.legal-right{
+    padding-top: 28px;
+
+}
+
+    
+    
