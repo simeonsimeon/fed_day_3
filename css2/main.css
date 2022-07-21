@@ -1,0 +1,212 @@
+html body {
+    margin: 0;
+    padding: 0;
+    
+}
+.header-banner{
+    height: 593px;
+    width: 100%;
+    
+   background-image: url(../ng.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+.bg-image{
+    background-image: url(../construction.jpg);
+    height: 593px;
+    opacity: 50px;
+}
+/*.bg-image{
+    background-image: url(../construction.jpg);
+    filter: blur(2px);*/
+.header-left h1{
+    color: white;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    
+    
+}
+.home,.about,.service,.project,.blog,.dropdown,.contact{
+    color: white;
+    
+}
+.header{
+    
+    display: flex;
+    justify-content: space-between;
+    
+    
+    
+    
+}
+.header-left{
+    
+
+}
+.header-right{
+    width: 65%;
+    margin-top: 1.5vh;
+    
+    
+    
+    
+}
+nav li{
+    display: flex;
+    display: inline-block;
+}
+nav li a{
+    padding-left: 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+ nav li a:hover{
+    color: rgb(231, 231, 241);
+    outline: solid 1px;
+    width: 100vw;
+    background-color: brown;
+    
+    
+}
+nav{
+    padding:0 0 0 30px;
+    
+    
+    
+    
+}
+@media screen and (max-width:600px){
+    nav li{
+        display: none;
+    }
+}
+@media screen and (max-width:600px){
+    nav li{
+        
+    }
+}
+@media screen and (max-width:600px){
+     nav li{
+        display: ;
+     }
+}
+    
+
+.bar1{
+    
+    background-color: rgb(126, 154, 233);
+   width: 0.3vw;
+    height: 2.5vh;
+    margin-left: 3px;
+    margin-top: 1.5vh;
+}
+.bar2{
+    background-color: rgb(126, 154, 233);
+    width: 0.3vw;
+    height: 2.5vh;
+    margin-left: 3px;
+    margin-top: 1.5vh;
+}
+.bar3{
+    background-color: rgb(84, 153, 233);
+    width: 0.3vw;
+    height: 2.5vh;
+    margin-left: 3px;
+    margin-top: 1.5vh;
+    
+}
+
+.bar{
+    display: flex;
+    margin-top: 15px;
+}
+/*.banner{
+    text-align: center;
+    /*width: 50% 0 0 50%;
+    
+    
+    background-color: brown;
+
+}
+.banner .wel{
+    font-size: 3em;
+    color: white;
+    background-color: black;
+    
+}
+.wel{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    
+}
+.banner p{
+font-size: 1.4em;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.button-first{
+    width: 10%;
+    height: 30px;
+}
+.banner h1{
+    font-size: ;
+}*/
+.banner{
+    text-align:center;
+}
+.down1{
+    text-align: center;
+}
+.wel{
+    
+    font-size: 3em;
+    font-weight: 800;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    color: white;
+}
+.down{
+    font-size: 1.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(255, 255, 255, 0.808);
+}
+.button-first{
+    height: 40px;
+    width: 15%;
+    border-radius: 20px;
+    color: aliceblue;
+    background:transparent;
+
+}
+hr{
+    width: 35%;
+}
+.button-first:hover{
+    background-color: black;
+}
+.quote{
+    height: 731px;
+}
+.letterlogin-quote{
+
+}
+.letter-quote{
+    height: 250px;
+    width: 50%;
+}
+.login-quote{
+    height: 571px;
+}
+
+
+
+
+    
+
+
+
+
+    
+    
