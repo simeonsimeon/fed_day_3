@@ -6,15 +6,16 @@ html body {
 .header-banner{
     height: 593px;
     width: 100%;
-    
-   background-image: url(../ng.jpg);
+    background-image: url(../ng.jpg);
     background-repeat: no-repeat;
     background-size: cover;  
+    
+    
 }
-.bg-image{
+/*.bg-image{
     background-image: url(../construction.jpg);
     height: 593px;
-    opacity: 50px;
+    opacity: 50px;*/
 }
 /*.bg-image{
     background-image: url(../construction.jpg);
@@ -24,8 +25,9 @@ html body {
 }
 
 .container{
-    width: 80%;
+    width: 1117px;
     margin: auto;
+    
     
     
 }
@@ -158,6 +160,7 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .down1{
     text-align: center;
+    
 }
 .wel{
     
@@ -188,18 +191,209 @@ hr{
 }
 .quote{
     height: 731px;
+    background-color: #f5f6f7;
+    
 }
 .letterlogin-quote{
-
+display: flex;
+justify-content: space-between;
 }
 .letter-quote{
     height: 250px;
     width: 50%;
+    margin-top: 80px;
 }
 .login-quote{
+    
     height: 571px;
-}
+    background-color: white;
+    margin-top: 80px;
+    width: 451px;
+    border-radius: 5px;
+    
 
+}
+.name2{
+    width: 390px;
+    height: 46px;
+    margin: 0 0 18px;
+    margin-left: 29px;
+
+}
+.name1{
+    width: 390px;
+    height: 46px;
+    margin: 23px 0 18px;
+    margin-left: 29px;
+}
+.name4{
+    width: 390px;
+    height: 152px;
+    margin: 0 0 18px 29px;
+    
+}
+.name3{
+    width: 390px;
+    height: 46px;
+    margin: 0 0 18px;
+    margin-left: 29px;
+}
+.login-quote h1{
+    font-size: 1em;
+}
+.login-quote button{
+    margin-left: 151px;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    
+}
+.login-quote p{
+    margin-left: 29px;
+}
+.constructions{
+    height: 954px;
+}
+.construt-area-head{
+    height: 244px;
+}
+.construct-area-sites{
+    display: flex;
+    justify-content: space-between;
+}
+.construct-area-site1{
+    width: 543px;
+    height: 302px;
+    border: solid 0.1px rgb(221, 215, 215); 
+    display: flex;
+}
+.construct-area-site2{
+    width: 543px;
+    height: 302px;
+    border: solid 0.1px rgb(221, 215, 215); 
+    
+    margin-left: 22px;
+    display: flex;
+}
+.construct-area-sites2{
+    display: flex;
+    justify-content: space-between;
+}
+.construct-area-site3{
+    width: 543px;
+    height: 302px;
+    border: solid 0.1px rgb(221, 215, 215); 
+    margin-top: 22px;
+    display: flex;
+    
+}
+.construct-area-site4{
+    width: 543px;
+    height: 302px;
+    border: solid 0.1px rgb(221, 215, 215);  
+    margin-top: 22px;
+    margin-left: 22px;
+    display: flex;
+}
+.img1{
+    width: 210px;
+    height: 302px;
+}
+.construct-area-site1 h1 p{
+    margin-left: 56px;
+}
+.abcd{
+    margin-left: 56px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 51px;
+    font-weight: 800;
+}
+.a,.b,.c{
+    margin-left: 56px;
+    margin-top: 51px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+}
+.f,.g,.h,.e{
+    margin-left:56px ;
+    font-size: 18px;
+    
+    
+    color: rgb(151, 151, 151);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.pp{
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    color: rgb(49, 51, 51);
+    filter: blur(.5px);
+    
+
+}
+.ph{
+    margin-top: -2%;
+    font-size: 1.5em;
+    text-align: center;
+    color: rgb(151, 151, 151)
+    
+}
+.imgob{
+    opacity: ;
+    
+}
+.services{
+    height: 1091px;
+
+}
+.header-services{
+    height: 244px;
+    text-align: center;
+    background-color: aqua;
+    justify-content: center;
+    
+}
+.whole-services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.services1{
+    height: 356px;
+    width:356px;
+    border: solid 1px;
+}
+.services2{
+    height: 356px;
+    width:356px;
+    border: solid 1px;
+    
+}
+.services3{
+    height: 356px;
+    width:356px;
+    border: solid 1px;
+}
+.services4{
+    height: 356px;
+    width:356px;
+    border: solid 1px;
+    margin-top: 25px;
+}
+.services5{
+    height: 356px;
+    width:356px;
+    border: solid 1px;
+    margin-top: 25px;
+}
+.services6{
+    height: 356px;
+    width:356px;
+    border: solid 1px;
+    margin-top: 25px;
+}
 
 
 
